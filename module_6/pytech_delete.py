@@ -14,8 +14,8 @@ for doc in student_list:
 
 test_doc = {
     "student_id": "1010",
-    "first_name" : "Scooby",
-    "last_name" : "Doo"
+    "first_name" : "Roger",
+    "last_name" : "Green"
 }
 
 test_doc_id = students.insert_one(test_doc).inserted_id
