@@ -1,3 +1,5 @@
+import pymysql
+
 CREATE TABLE team(team_id INTEGER NOT NULL, team_name STR NOT NULL, mascot STR NOT NULL);
 INSERT INTO team VALUE ("85962", "Mets", "Mr. Met");
 
