@@ -5,14 +5,13 @@
     Description: WhatABook program; Console program that interfaces with a MySQL database
 """
 
-nes (122 sloc)  5.28 KB
 
-"""import statements"""
+"""import"""
 import sys
 import mysql.connector
 from mysql.connector import errorcode
 
-"""database connection"""
+"""connect"""
 config = {
     user": "whatabook_user",
     "password": "MySQL8IsGreat!",
